@@ -10,7 +10,7 @@ export default defineUserConfig({
     style: "@vuepress-reco/style-default",
     logo: "/logo.png",
     author: "lavyoung1325",
-    authorAvatar: "/head.png",
+    authorAvatar: "/head1.jpg",
     // docsRepo: "https://github.com/vuepress-reco/vuepress-theme-reco-next",
     // docsBranch: "main",
     // docsDir: "example",
@@ -29,9 +29,9 @@ export default defineUserConfig({
       // ],
     },
     navbar: [
-      { text: "Home", link: "/" },
-      { text: "Categories", link: "/categories/qianduan/1/" },
-      { text: "Tags", link: "/tags/tag1/1/" },
+      { text: "主页", link: "/" },
+      { text: "目录", link: "/categories/qianduan/1/" },
+      { text: "标签", link: "/tags/All/1/" },
       // {
       //   text: "Docs",
       //   children: [
@@ -44,7 +44,7 @@ export default defineUserConfig({
       body: [
         {
           type: "text",
-          content: `🎉🎉🎉 reco 主题 2.x 已经接近 Beta 版本，在发布 Latest 版本之前不会再有大的更新，大家可以尽情尝鲜了，并且希望大家在 QQ 群和 GitHub 踊跃反馈使用体验，我会在第一时间响应。`,
+          content: `Hello， 大家好，我是Lavyoung`,
           style: "font-size: 12px;",
         },
         {
@@ -52,15 +52,15 @@ export default defineUserConfig({
         },
         {
           type: "title",
-          content: "QQ 群",
+          content: "联系方式",
         },
         {
           type: "text",
           content: `
           <ul>
-            <li>QQ群1：1037296104</li>
-            <li>QQ群2：1061561395</li>
-            <li>QQ群3：962687802</li>
+            <li>QQ：2034549297</li>
+            <li>微信：C2034549297</li>
+            <li>邮箱：2034549297@qq.com</li>
           </ul>`,
           style: "font-size: 12px;",
         },
@@ -75,8 +75,8 @@ export default defineUserConfig({
           type: "text",
           content: `
           <ul>
-            <li><a href="https://github.com/vuepress-reco/vuepress-theme-reco-next/issues">Issues<a/></li>
-            <li><a href="https://github.com/vuepress-reco/vuepress-theme-reco-next/discussions/1">Discussions<a/></li>
+            <li><a href="https://github.com/Lavigne-yang">Profile<a/></li>
+            <li><a href="https://github.com/Lavigne-yang/Blog">Project<a/></li>
           </ul>`,
           style: "font-size: 12px;",
         },
@@ -86,10 +86,10 @@ export default defineUserConfig({
         {
           type: "buttongroup",
           children: [
-            {
-              text: "打赏",
-              link: "/docs/others/donate.html",
-            },
+            // {
+            //   text: "打赏",
+            //   link: "/docs/others/donate.html",
+            // },
           ],
         },
       ],

@@ -9,5 +9,5 @@ git init
 git add -A
 git commit -m '部署'
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:Lavigne-yang/LavyoungBlog.git master:gh-pages
+git push -f git@github.com:Lavigne-yang/LavyoungBlog.git master:main
 cd -
